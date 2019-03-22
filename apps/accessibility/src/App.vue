@@ -82,9 +82,11 @@ export default {
 	},
 	methods: {
 		selectTheme(id) {
+			console.debug(id)
 			this.selectItem('theme', id);
 		},
 		selectFont(id) {
+			console.debug(id)
 			this.selectItem('font', id);
 		},
 
